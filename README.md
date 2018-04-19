@@ -40,7 +40,10 @@ EXAMPLE:
     $conf['session_inc'] = 'sites/all/modules/mongodb/mongodb_session/mongodb_session.inc';
     
 
-# Enable the mongodb module n here you go.
+# Enable the mongodb module and you can check the user session were created in mongodb.
+use drupal;
+show tables;
+db.session.find({}).pretty();
 
 
 # Command for php install and switching php 5.5 to php 7.0 on ubuntu OS
