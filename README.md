@@ -1,14 +1,16 @@
 # Drupal-7-mongodb-module-PHP-7.0 with mongodb_session module
 Drupal 7 mongodb module Support for PHP7.0  with mongodb_session module
 
-# In your drupal root put vendor.tar.gz lib files or install vendor using composer form git: https://github.com/alcaeus/mongo-php-adapter updated library.
+# In your drupal root put vendor.tar.gz lib files or install vendor using composer form git:
+https://github.com/alcaeus/mongo-php-adapter updated library.
 
 
 # After alcaeus mongodb lib install do the config. in /sites/default/settings.php file given below:
 
 require_once DRUPAL_ROOT . '/vendor/autoload.php';
 
-# Config and install mongodb module from https://github.com/vaibbhav/Drupal-7-mongodb-module-PHP-7.0/tree/master/mongodb 
+# Config and install mongodb module from 
+https://github.com/vaibbhav/Drupal-7-mongodb-module-PHP-7.0/tree/master/mongodb 
 
 ### 1: mongodb_connections
 
