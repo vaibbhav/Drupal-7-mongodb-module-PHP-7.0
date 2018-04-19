@@ -28,16 +28,15 @@ EXAMPLE:
         'db' => 'drupal_default',
       ),
     );
-
-EXAMPLE:
-
-$conf['mongodb_connections'] = array(
+    
+    $conf['mongodb_connections'] = array(
      'default' => array(
        'host' => '127.0.0.1',                       
        'db' => 'drupal',
       ),
-   );
-$conf['session_inc'] = 'sites/all/modules/mongodb/mongodb_session/mongodb_session.inc';
+    ); 
+    $conf['session_inc'] = 'sites/all/modules/mongodb/mongodb_session/mongodb_session.inc';
+    
 
 # Enable the mongodb module n here you go.
 
