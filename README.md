@@ -10,6 +10,8 @@ require_once DRUPAL_ROOT . '/vendor/autoload.php';
 
 # Config and install mongodb module from https://github.com/vaibbhav/Drupal-7-mongodb-module-PHP-7.0/tree/master/mongodb 
 
+EXAMPLE:
+
 $conf['mongodb_connections'] = array(
      'default' => array(
        'host' => '127.0.0.1',                       
