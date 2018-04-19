@@ -10,6 +10,25 @@ require_once DRUPAL_ROOT . '/vendor/autoload.php';
 
 # Config and install mongodb module from https://github.com/vaibbhav/Drupal-7-mongodb-module-PHP-7.0/tree/master/mongodb 
 
+### 1: mongodb_connections
+
+The `mongodb_connections` variable holds the databases available to the module.
+The contents are arranged as an associative array holding the name (alias) of
+the connection, the database address, and the name of the database. If not
+defined, it makes a single default entry..
+
+EXAMPLE:
+
+    $conf['mongodb_connections'] = array(
+      // Connection name/alias
+      'default' => array(
+        // Omit USER:PASS@ if Mongo isn't configured to use authentication.
+        'host' => 'mongodb://USER:PASS@localhost',
+        // Database name
+        'db' => 'drupal_default',
+      ),
+    );
+
 EXAMPLE:
 
 $conf['mongodb_connections'] = array(
